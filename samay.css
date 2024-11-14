@@ -1,0 +1,241 @@
+body{
+    background-image: linear-gradient(to right, #030903 ,#0C220C);
+    margin: 0%;
+    padding: 0%;
+}
+
+:hover{
+    /* background-color: greenyellow; */
+}
+
+.header{
+    position: fixed;
+    top: 5px;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    padding-right: 20px;
+    width: 1200px;
+    background-color: #061206;
+    margin: 40px  200px ;
+    border-radius: 40px;
+    border: 1px solid rgb(25, 212, 25) ;
+    z-index: 10;
+    box-shadow: 7px 7px 7px  #11430B;
+    /* opacity: 95%; */
+    background: transparent;
+    backdrop-filter: blur(.6rem);
+
+}
+.nav-but{
+    display: flex;
+}
+
+.sk{
+color: greenyellow;
+margin-left: 21px;
+cursor: pointer;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.sign{
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    background-color: #020817;
+    border-radius: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid greenyellow;
+    font-size: 25px;
+    /* margin-left: 800px; */
+    color: whitesmoke;
+    transition-duration: 1ms;
+    cursor: pointer;
+
+}
+
+.sign:hover{
+        background-color: greenyellow;
+}
+
+.join{
+    width: 100px;
+    height: 40px;
+    background-color: #7AF62D;
+    border-radius: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 2px solid greenyellow;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+
+.picture{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin-top: 120px;
+    margin-left: 900px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image{
+    object-fit: cover;
+}
+
+.content{
+    padding-top: 150px;
+    height: 110vh;
+}
+
+.circle{
+    width: 5px;
+    height: 5px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 200px;
+    left: -50px;
+    box-shadow: 100px 100px 100px 30px green;
+}
+
+.chess{
+    height: 400px;
+    width: 500px;
+    top: 250px;
+    position: absolute;
+    margin-left: 250px;
+    
+}
+
+.mv{
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.community{
+    font-size: 63px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7AF62D;
+    cursor: pointer;
+}
+
+.ps{
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.users{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #35EF12;
+    height: 40px;
+    width: 120px;
+    background-color: #0E3C07;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.access{
+    
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    height: 40px;
+    width: 200px;
+    background-color: #2FCF11;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.learn{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: 40px;
+    width: 130px;
+    background-color: #020817;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.partner{
+    
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    height: 50px;
+    width: 100px;
+    /* background-color: red; */
+    background-image: url(https://www.bmsamay.com/assets/chesscomlogo-b8a62b7b.webp);
+    background-size: 100px ;
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    /* object-position: fixed; */
+
+}
+
+.part{
+    /* display: flex; */
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.logo{
+    position: absolute;
+    top: -40px;
+    height: 150px;
+
+    /* background-color: red; */
+    /* background-blend-mode: multiply; */
+    /* filter: grayscale(1.0); */
+}
