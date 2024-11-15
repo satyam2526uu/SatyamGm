@@ -65,6 +65,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .join{
+    text-decoration: none;
     width: 100px;
     height: 40px;
     background-color: #7AF62D;
